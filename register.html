@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/header_nav.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/message.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="login container grid">
+    <div class="row">
+        <div class="form_container active register_form col l-5 v-l-5 s-12 m-12">
+            <div class="form_input">
+                <br>
+                <h1 class="title_form">Đăng Ký</h1>
+                <a id="home" href="index.html"><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
+                <h4 class="greeting ">Chào mừng bạn đến với Blog của LE MAI HOANG</h4>
+                <p class="greeting_details">Hãy cùng xây dựng với tôi một diễn đàn chia sẻ những trải nghiệm và kỹ năng mới bằng cách đăng ký một tài khoản !</p>
+            
+            </div>
+                <!-- <span class="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span> -->
+            </h2>
+            <div class="form_input">
+                <label for="">Họ và tên </label>
+                <span class="icon_input">  
+                  <i class="fa-solid fa-user"></i>
+                </span>
+                <input id="username" class="require username"placeholder="Nhập tên của bạn vào đây" type="text" name="username" >
+                <span class="msgError"> </span>
+
+
+            </div>
+            <div class="form_input">
+                <label for="">Email </label>
+                <span class="icon_input">  
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                    </span>
+                <input id="email" class="require email"placeholder="Nhập Email" type="text" name="email" > 
+                    <span class="msgError"></span>
+            </div>
+            <div class="form_input">
+                <label for="">Mật khẩu</label>
+                <span class="icon_input">  
+                  <i class="fa-sharp fa-solid fa-lock"></i>
+                    </span>
+                <input id="password" class="require"min="6" max="10" placeholder="Nhập mật khẩu" type="password" name="password">
+                <span class="eye eye_prohibit"><i class="fa-sharp fa-solid fa-eye-slash"></i> </span>
+                <span class="eye eye_show eye_current"><i class="fa-sharp fa-solid fa-eye"></i></span>
+                <span class="msgError"></span>
+
+            </div>
+            <div class="form_input">
+                <label for="">Nhập lại mật khẩu</label>
+                <span class="icon_input">  
+                  <i class="fa-sharp fa-solid fa-lock"></i>
+                    </span>
+                <input id="confirmPwd" class="require"placeholder="Nhập lại mật khẩu" type="password" name="cofirm_password" >
+                <span class="eye eye_prohibit "><i class="fa-sharp fa-solid fa-eye-slash"></i></span>
+                <span class="eye eye_show"><i class="fa-sharp fa-solid fa-eye"></i></span>
+                <span class="msgError"></span>
+
+
+            </div>
+            <div class="form_input">
+                <p class="agree_test">Bằng việc đăng ký tài khoản, bạn đã đồng ý với <a href="#">Điều khoản dịch vụ</a>  và <a href="#">Chính sách </a>bảo mật của chúng tôi</p>
+                <button id="register_btn" class="btn">Đăng ký</button>
+                <p class="agree_test">Bạn đã có tài khoản? <a id="move_to_login" href="login.html" style="font-weight: 600;">Đăng nhập ngay</a></p>
+            </div>
+    
+        </div>
+        <div class="login_ads col l-7 v-l-7 s-0 m-0">
+            <img id="hoa_dao" src="image/hoadao.png" alt="">
+            <img id="ads_image" src="image/ads.png"  alt="">
+            <div id="ads_details">
+                <h2>Bảo mật & An toàn tuyệt đối</h2><br>
+                <p>Bạn có thể tham gia xây dựng nội dung.Thông tin về tài khoản của bạn sẽ được bảo mật.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="messageToats trans">
+        <div class="toast toast--green">
+          <div class="toast__icon">
+            <svg version="1.1" class="toast__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+        <g><g><path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0    c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7    C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
+          </g></g>
+            </svg>
+          </div>
+          <div class="toast__content">
+            <p class="toast__type">Success</p>
+            <p class="toast__message">Thành công</p>
+          </div>
+          <div class="toast__close">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+          <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+        </svg>
+          </div>
+        </div>
+        
+        
+        <div class="toast toast--yellow ">
+          <div class="toast__icon">
+        <svg version="1.1" class="toast__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+        <g>
+          <g id="info">
+            <g>
+              <path  d="M10,16c1.105,0,2,0.895,2,2v8c0,1.105-0.895,2-2,2H8v4h16v-4h-1.992c-1.102,0-2-0.895-2-2L20,12H8     v4H10z"></path>
+              <circle  cx="16" cy="4" r="4"></circle>
+            </g>
+          </g>
+        </g>
+        
+            </svg>
+          </div>
+          <div class="toast__content">
+            <p class="toast__type">Info</p>
+            <p class="toast__message">Hệ thống đang bảo trì</p>
+          </div>
+          <div class="toast__close">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+          <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+        </svg>
+          </div>
+        </div>
+        
+        <div class="toast toast--red ">
+          <div class="toast__icon">
+        <svg version="1.1" class="toast__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 301.691 301.691" style="enable-background:new 0 0 301.691 301.691;" xml:space="preserve">
+        <g>
+          <polygon points="119.151,0 129.6,218.406 172.06,218.406 182.54,0  "></polygon>
+          <rect x="130.563" y="261.168" width="40.525" height="40.523"></rect>
+        </g>
+            </svg>
+          </div>
+          <div class="toast__content">
+            <p class="toast__type">Error</p>
+            <p class="toast__message">Thất bại</p>
+          </div>
+          <div class="toast__close">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+          <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+        </svg>
+          </div>
+        </div>
+</div>
+</div>
+
+
+</body>
+<script src="js/loginhandel.js"></script>
+<script src="js/library.js"></script>
+
+<script>validation({
+    form:".register_form",
+    errorMessage:".msgError",
+    submitButton:"#register_btn",
+    rules:[
+        validation.isEmail("#email","Đây phải là một Email !"),
+        validation.isMax("#password",10),
+        validation.isMin("#password",6),
+        validation.isConfirmPassword("#confirmPwd",function(){
+            return document.querySelector(".register_form #password").value
+        },"Hãy nhập lại mật khẩu để xác nhận !"),
+        validation.isRequire("#username","Vui lòng nhập họ tên đầy đủ !"),
+        validation.isRequire("#email"),
+        validation.isRequire("#confirmPwd"),
+        validation.isRequire("#password")
+    ]}); </script>
+    <script>registerHandle("#register_btn");</script>
+</html>

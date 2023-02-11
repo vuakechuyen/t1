@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link type="text/css" rel="stylesheet" href="css/header_nav.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+</head>
+<body>
+    <div id="header_navbar">
+        <div id="first_page" class="grid">
+            <div class="row">
+                <div id="list_app" class="first_items s-0 col s-4 m-4 l-4 v-l-4 ">
+                    <ul id="society_app">
+                        <a class="apps" href="http://facebook.com/lemaihoanguser"><i class="fa-brands fa-square-facebook"></i></a> 
+                        <a class="apps" href=""><i class="fa-sharp fa-solid fa-envelope"></i></a>
+                        <a class="apps" href=""><i class="fa-brands fa-youtube"></i></a>
+                        <span id ="qr_icon" class="apps" href=""><i class="fa-sharp fa-solid fa-qrcode"></i>
+                            <div id="qr">
+                                <img src="image/qr.jpg" alt="">
+                            </div>
+                        </span>
+                    </ul>
+                </div>
+                
+                <!-- name -->
+                <div id="logo" class="first_items col s-12 m-12 l-4 v-l-4  logo_color">
+                    <div class="bar_logo">
+                        <img src="image/logo_deskop.png" alt="" class="logo_image s-0 m-0">
+                        <img src="image/logo_mobile_mini.png" alt="" class="logo_image l-0 v-l-0 ">
+                        <label id="bar_mobile" class="l-0 v-l-0 " for="check_menu">
+                           <i class="fas fa-bars fa-3x"></i>
+                       </label> 
+
+                    </div>
+                </div>
+                <!-- my property -->
+               <div id="property" class="first_items col s-0 s-4 m-4 l-4 v-l-4 ">
+                   <div class="row_item">
+                       <a class="nav_items item " href="index.html" ><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
+                       <a class="nav_items item login_item" href="login.html"   >Đăng nhập</a>
+                       <a class="nav_items item  register_item" href="register.html"   >Đăng ký</a>
+                </div>
+                <div class="row_item">
+                    <div class="nav_items item" href="#"   >Favorites
+                        <label  for="faovrites" class="more_nav"><i class="fa-sharp fa-solid fa-caret-down"></i></label>
+                        <input type="checkbox" name="" id="faovrites" hidden> 
+                        <ul class="list_items">
+                            <a class="nav_items_child item">Công nghệ</a>
+                            <a class="nav_items_child item">Sách</a>
+                            <a class="nav_items_child item">Đầu tư</a>  
+                            <a class="nav_items_child item">Thời trang</a> 
+                            
+                        </ul>
+                    </div>
+                    <div class="nav_items item" href="#"   >Albums
+                        <label for="albums" class="more_nav"><i class="fa-sharp fa-solid fa-caret-down"></i></label>
+                        <input type="checkbox" name="" id="albums" hidden> 
+                        <ul class="list_items">
+                            <a class="nav_items_child item">Âm nhạc</a>
+                            <a class="nav_items_child item">Video</a>
+                            <a class="nav_items_child item">Hình ảnh</a>  
+                            <a class="nav_items_child item">Thể thao</a>  
+                        </ul>
+                    </div>
+                       <a class="nav_items item" href="#"   >Plans</a>
+                   </div>
+                    
+               </div>
+            </div>
+            
+            <!-- link apps -->
+           
+            
+           <!-- button menu mobile -->
+           
+        </div> 
+        <!-- menu mobile  -->
+        <input type="checkbox" hidden name="" class="check_menu-nav" id="check_menu">
+        <div id="mobile_screen" class="l-0 v-l-0">
+                    <div id="title_bar">
+                        <label  for="check_menu" id="close_btn"><i class="fa-sharp fa-solid fa-square-xmark"></i></label>
+                    </div>
+                    <div id="mobile_list">
+                        <a href="index.html" class="mobile_items"><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
+                        <label for="favrites_list-mobile" href="#" class="mobile_items">Favorites
+                            <span class="down_icon"><i class="fa-sharp fa-solid fa-caret-down"></i></span>
+                        </label> 
+                            <input type="checkbox" name="" id="favrites_list-mobile" hidden>
+                            <div class="mobile_list-child" hidden>
+                                <a href="#" class="mobile_items">Công nghệ</a>
+                                <a href="#" class="mobile_items">Thời trang</a>
+                                <a href="#" class="mobile_items">Sách</a>
+                                <a href="#" class="mobile_items">Đầu tư</a>
+
+                            </div>
+                        <label for="albums_list-mobile" href="#" class="mobile_items">Albums
+                                <span class="down_icon"><i class="fa-sharp fa-solid fa-caret-down"></i></span>
+                            </label> 
+                                <input type="checkbox" name="" id="albums_list-mobile" hidden>
+                                <div class="mobile_list-child" hidden>
+                                    <a href="#" class="mobile_items">Âm nhạc</a>
+                                    <a href="#" class="mobile_items">Video</a>
+                                    <a href="#" class="mobile_items">Hình ảnh</a>
+                                    <a href="#" class="mobile_items">Thể thao</a>
+
+                                </div>
+                      
+                        <a href="login.html" class="mobile_active ">Đăng Nhập</a>
+                        <a href="register.html" class="mobile_active chage_color">Đăng Ký</a>
+                    </div> 
+            </div>
+    </div>  
+    <div id="post_blog" class="grid">
+        <div class="container_detail row wide">
+        <div class="detail_post col l-8 v-l-8 s-12">
+           <div class="post_header">
+                <div class="post_title"> CINE</div>
+                <div class="post_name">
+                    How to be fashionable and save on purchases</div>
+                <div class="details">
+                    <img src="https://2.bp.blogspot.com/-Q0oaEPMQuso/XQHLecqFegI/AAAAAAAAAO4/rIXf1Ll7_Sca_sBn0sye_HJLRmVVZitoQCK4BGAYYCw/w30/photo.jpg" alt=""> by <span class="author"> Way2Themes</span><span class="post_time">August 23, 2016</span>    
+                </div>
+           </div>
+            <img src="https://4.bp.blogspot.com/-tNBM69z6FB4/Wz7eZBJrGwI/AAAAAAAACXY/mE0iCPbiyIccpZClEx4UW5JvsVx8-NLigCK4BGAYYCw/s800/pexels-photo-285171.jpeg" alt="" class="img_detail">
+            <div class="extra_detail">
+            </div>
+            <p class="content_post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <p class="content_post">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p class="content_post"></p>
+            <div class="social"></div>
+            <div class="related_wrap">
+                <h6>YOU MAY LIKE THESE POSTS</h6>
+                <div class="relates_post">
+                    <div class="related_item ">
+                        <img src="https://4.bp.blogspot.com/-tNBM69z6FB4/Wz7eZBJrGwI/AAAAAAAACXY/mE0iCPbiyIccpZClEx4UW5JvsVx8-NLigCK4BGAYYCw/w280/pexels-photo-285171.jpeg" alt="" class="post_thumb">
+                        <a href="" class="post_name_related">How to be fashionable and save on purchases</a>
+                        <p class="post_meta">August 23, 2016</p>
+                    </div>
+                    <div class="related_item ">
+                        <img src="https://4.bp.blogspot.com/-d_nKdu-jKwA/VupUS_8FhyI/AAAAAAAADV4/8JudMeWR3WAu1LA2vRP2fSBnAEoa0ENkw/w280/child-997231_960_720.jpg" alt="" class="post_thumb">
+                        <a href="" class="post_name_related">How to be fashionable and save on purchases</a>
+                        <p class="post_meta">August 23, 2016</p>
+                    </div>
+                    <div class="related_item ">
+                        <img src="https://2.bp.blogspot.com/-gcOhZ6HP8Bo/VupTHihqM-I/AAAAAAAADVs/zjX6ao4I8XI3-dmLL6WCt9xECi6kUN5mQ/w280/forest-1149876_960_720.jpg" alt="" class="post_thumb">
+                        <a href="" class="post_name_related">How to be fashionable and save on purchases</a>
+                        <p class="post_meta">August 23, 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="property_personal col l-4 v-l-4 s-12 m-12">
+            <div class="about_me_container">
+                <div class="title-bar">ABOUT ME</div>
+                <img onerror="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrmKiqtirgP-DWPE_NO0bSMl-IlTH912bqg&usqp=CAU'" src="https://img.redbull.com/images/c_crop,x_237,y_0,h_803,w_1205/c_fill,w_1000,h_640/q_auto,f_auto/redbullcom/2017/09/11/cf94b842-0205-48ac-81ae-e408d829d164/the-great-gatsby" alt="" id="avar_img">
+                <p id="about_me-name">Lê Mai Hoàng <br>
+                    <span>Officer Army,Trader,Freelancer,Developer</span>
+                </p>
+                <div id="about_me-details">
+                    <li class="detail_property"><span class="detail_property-name">Age:</span><span class="detail_property-answer">23 olds</span> </li>
+                    <li class="detail_property"><span class="detail_property-name">Hight:</span><span class="detail_property-answer">178cm</span></li>
+                    <li class="detail_property"><span class="detail_property-name">Weight:</span><span class="detail_property-answer">70kg</span></li>
+                    <li class="detail_property"><span class="detail_property-name">From:</span><span class="detail_property-answer">Lưu Vĩnh Sơn,Thạch Hà,Hà Tĩnh</span></li>
+                    <li class="detail_property"><span class="detail_property-name">Address:</span><span class="detail_property-answer">Tân Phong,TP Biên Hoà,Đồng Nai</span></li>
+                    <li class="detail_property"><span class="detail_property-name">Phone:</span><span class="detail_property-answer">0328738854</span></li>
+                    <li class="detail_property"><span class="detail_property-name">Email:</span><span class="detail_property-answer"><em>hxtvthht@gmail.com</em></span></li>
+                    <li class="detail_property"><span class="detail_property-name">Fb:</span><span class="detail_property-answer"><em>http://facebook.com/lemaihoanguser</em></span></li>
+                </div>
+            </div>
+
+                 <div id="popular_posts">
+                    <div class="title-bar">POPULAR POST</div>
+                        <div id="popular_posts-container">
+                        <div class="popular_post">
+                        <img class="popular_post-img"onerror="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrmKiqtirgP-DWPE_NO0bSMl-IlTH912bqg&usqp=CAU'" src="image/bg3.jpg" alt="">
+                        <div class="popular_post-detail">
+                            <p class="popular_post-name">How to be fashionable and save on purchases</p>
+                            <span class="post_time">March 17, 2016</span>
+                        </div>
+
+                    </div>
+                    <div class="popular_post">
+                        <img class="popular_post-img"onerror="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrmKiqtirgP-DWPE_NO0bSMl-IlTH912bqg&usqp=CAU'" src="image/bg3.jpg" alt="">
+                        <div class="popular_post-detail">
+                            <p class="popular_post-name">How to be fashionable and save on purchases</p>
+                            <span class="post_time">March 17, 2016</span>
+                        </div>
+
+                    </div>
+                    <div class="popular_post">
+                        <img class="popular_post-img"onerror="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrmKiqtirgP-DWPE_NO0bSMl-IlTH912bqg&usqp=CAU'" src="image/bg3.jpg" alt="">
+                        <div class="popular_post-detail">
+                            <p class="popular_post-name">How to be fashionable and save on purchases</p>
+                            <span class="post_time">March 17, 2016</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="facebook_blog">
+                <div class="title-bar">FACEBOOK</div>
+                <div id="fb_img"><img onerror="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrmKiqtirgP-DWPE_NO0bSMl-IlTH912bqg&usqp=CAU'" src="image/Watercolor Poster by Sko4.jpg" alt=""></div>
+                
+            </div>
+            <div class="type_posts">
+                 <div class="title-bar">CATEGORIES</div>  
+                 <div id="type_post-container">
+                     <li class="type_post"><a> Cuộc sống quanh tôi <span class="label_count">(3)</span></a></li>
+                     <li class="type_post"><a>Âm nhạc <span class="label_count">(3)</span> </a></li>
+                     <li class="type_post"><a> Videos <span class="label_count">(3)</span></a></li>
+                     <li class="type_post"><a> Bộ sưu tập ảnh <span class="label_count">(3)</span></a></li>
+                     <li class="type_post"><a> Thể thao <span class="label_count">(3)</span></a></li>
+                     <li class="type_post"><a>Bộ sưu tập sách  <span class="label_count">(3)</span> </a></li>
+                     <li class="type_post"><a> Công nghệ <span class="label_count">(3)</span></a></li>
+                     <li class="type_post"><a>Thời trang <span class="label_count">(3)</span> </a></li>
+                     <li class="type_post"><a> Đầu tư <span class="label_count">(3)</span></a> </li>
+
+
+                 </div>
+            </div>  
+            <div id="tags">
+                <div class="title-bar">TAGS</div>
+                <div class="tags_container">
+                    <li class="post_title"><a href="">MY LIFE</a></li>
+                    <li class="post_title"><a href="">MUSIC</a></li>
+                    <li class="post_title"><a href="">VIDEO</a></li>
+                    <li class="post_title"><a href="">PHOTO</a></li>
+                    <li class="post_title"><a href="">SPORT</a></li>
+                    <li class="post_title"><a href="">BOOK</a></li>
+                    <li class="post_title"><a href="">TECHNOLOGY</a></li>
+                    <li class="post_title"><a href="">FASHION</a></li>
+                    <li class="post_title"><a href="">BUSINESS</a></li>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    
+</body>
+<script type="module" src="./js/detail.js"></script>
+</html>
