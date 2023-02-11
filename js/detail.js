@@ -4,7 +4,7 @@ const address = urlParams.get("address");
 var $=document.querySelector.bind(document)
 var $$=document.querySelectorAll.bind(document)
 import {getRandomArray,popularPostRender} from "./renderpost.js";
-  fetch("http://localhost:3000/posts")
+  fetch("https://my-json-server.typicode.com/vuakechuyen/t1/posts")
   .then(res=>res.json())
   .then(data=>{
     popularPostRender(data)
